@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  h1= 'Lab A - Express lab'
+
+  p 
+    a(href='https://comp3913lab3.herokuapp.com/api/countries') Item A
+  p - return contents of ten_most_populated_countries.json as pure raw JSON with Header >> Content-Type: application/json
+
+
+  p 
+    a(href='https://comp3913lab3.herokuapp.com/api/capitals') Item B
+  p - display the contents of canada_capitals.json in an HTML table in the view. Jade was used as view engine.

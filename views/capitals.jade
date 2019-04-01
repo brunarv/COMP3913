@@ -1,0 +1,12 @@
+extends layout
+block content
+  table
+   thead
+     tr
+      th Province
+      th Capital
+      tbody
+       each contact in contactArr
+        tr
+        each value in contact
+          td= value
